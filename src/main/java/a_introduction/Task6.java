@@ -11,7 +11,8 @@ public class Task6 {
         else {
             beerType = "normal";
         }
-         alcoholContent >= 4 ? (beerType = "strong"): (beerType = "normal");
+         beerType = alcoholContent >= 4 ? (beerType = "strong"): (beerType = "normal");
+        System.out.println("Beer is " + beerType);
     }
 
 }

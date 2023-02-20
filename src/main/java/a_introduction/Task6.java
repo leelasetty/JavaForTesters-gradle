@@ -2,7 +2,7 @@ package a_introduction;
 
 public class Task6 {
     public static void main (String[] args) {
-        double alcoholContent = 5.5;
+        double alcoholContent = 3;
         String beerType;
 
         if (alcoholContent >= 4) {
@@ -11,7 +11,7 @@ public class Task6 {
         else {
             beerType = "normal";
         }
-         beerType = alcoholContent >= 4 ? (beerType = "strong"): (beerType = "normal");
+         beerType = alcoholContent >= 4 ?  "strong": "normal";
         System.out.println("Beer is " + beerType);
     }
 
